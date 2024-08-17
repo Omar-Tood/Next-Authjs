@@ -4,6 +4,7 @@ import Google from "next-auth/providers/google";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import Credentials from "next-auth/providers/credentials";
 import bcryptjs from "bcryptjs";
+import { db } from "./db";
 
 export const {
   handlers: { GET, POST },
