@@ -10,7 +10,7 @@ function Navbar() {
            </Link>
         </div>
         
-        <div>
+        <div className="flex items-center gap-x-6">
          <Link href="/middleware">Middleware</Link>
          <Link href="/server">Server</Link>
          
