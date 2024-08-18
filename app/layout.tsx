@@ -16,7 +16,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="mx-auto max-w-screen-lg h-screen flex flex-col">
+         <div className="flex-grow">
+           {children}
+         </div>
+        </div>
+        
+       
+        
+        </body>
     </html>
   );
 }
