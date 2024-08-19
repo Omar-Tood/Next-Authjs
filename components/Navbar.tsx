@@ -16,7 +16,7 @@ function Navbar() {
 
         <div className="flex items-center gap-x-5">
         <Link href="/sign-in">
-          <div>Login</div>
+          <div className="bg-pink-600 text-white text-sm px-4 py-2 rounded-sm">Login</div>
         </Link>
         </div>
       </div>
