@@ -1,3 +1,4 @@
+import LoginGithub from '@/components/LoginGithub'
 import React from 'react'
 
 const SignIn = () => {
@@ -5,6 +6,10 @@ const SignIn = () => {
     <div className="w-full flex mt-20 justify-center">
       <section className="flex flex-col w-[400px]">
        <h1>Sign In</h1>
+        
+
+        <LoginGithub/>
+
       </section>
     </div>
   )
